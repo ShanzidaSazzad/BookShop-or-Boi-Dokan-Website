@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>বই সেকশন</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <header class="header">
+        <div class="navbar">
+            <div class="logo">
+                <img src="Document/logo.svg">
+            </div>
+            <input type="text" placeholder="আপনার বই খুঁজুন..." class="search-bar">
+            <a href="customer_Form.html">
+                <button class="cart-button">Place-Order</button>
+            </a>
+        </div>
+
+        <nav class="nav-bar">
+            <ul class="nav-links">
+                <li><a href="home.html">হোম</a></li>
+                <li><a href="writer.html">লেখক</a></li>
+                <li><a href="publisher.html">প্রকাশনী</a></li>
+                <li><a href="campign.html">ক্যাম্পেইন</a></li>
+                <li><a href="contact.html">যোগাযোগ</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="writer-box">
+        <h2 style="text-align: center;">সকল লেখক</h2>
+        <div class="author-list">
+            <div class="author" onclick="showBio('Humayun Ahmed', 'Famous Bangladeshi writer and filmmaker.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Humayun Ahmed</p>
+            </div>
+            <div class="author" onclick="showBio('Rabindranath Tagore', 'Nobel laureate poet, composer, and philosopher.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Rabindranath Tagore</p>
+            </div>
+            <div class="author" onclick="showBio('Kazi Nazrul Islam', 'Rebel poet of Bengal, known for his revolutionary works.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Kazi Nazrul Islam</p>
+            </div>
+            <div class="author" onclick="showBio('Sarat Chandra Chattopadhyay', 'Famous novelist known for portraying Bengali society.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Sarat Chandra Chattopadhyay</p>
+            </div>
+            <div class="author" onclick="showBio('Jibanananda Das', 'Prominent modernist Bengali poet.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Jibanananda Das</p>
+            </div>
+            <div class="author" onclick="showBio('Manik Bandopadhyay', 'Known for his realistic portrayal of rural Bengal.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Manik Bandopadhyay</p>
+            </div>
+            <div class="author" onclick="showBio('Begum Rokeya', 'Pioneer of women\'s education and rights in South Asia.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Begum Rokeya</p>
+            </div>
+            <div class="author" onclick="showBio('Michael Madhusudan Dutt', 'Introduced amitrakshar chhanda in Bengali poetry.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Michael Madhusudan Dutt</p>
+            </div>
+            <div class="author" onclick="showBio('Sunil Gangopadhyay', 'Prolific Bengali author and poet.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Sunil Gangopadhyay</p>
+            </div>
+            <div class="author" onclick="showBio('Sukumar Ray', 'Famous for his humorous and children\'s literature.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Sukumar Ray</p>
+            </div>
+            <div class="author" onclick="showBio('Syed Mujtaba Ali', 'Renowned for his travel writing and wit.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Syed Mujtaba Ali</p>
+            </div>
+            <div class="author" onclick="showBio('Ahmed Sofa', 'Influential intellectual and novelist in modern Bangla literature.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Ahmed Sofa</p>
+            </div>
+            <div class="author" onclick="showBio('Selina Hossain', 'Award-winning novelist known for her social themes.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Selina Hossain</p>
+            </div>
+            <div class="author" onclick="showBio('Akhtaruzzaman Elias', 'Famous for deep psychological narratives and realism.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Akhtaruzzaman Elias</p>
+            </div>
+            <div class="author" onclick="showBio('Humayun Azad', 'Bold and modern voice in Bangladeshi literature.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Humayun Azad</p>
+            </div>
+            <div class="author" onclick="showBio('Anisul Hoque', 'Contemporary writer, poet, and journalist.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Anisul Hoque</p>
+            </div>
+            <div class="author" onclick="showBio('Zahir Raihan', 'Novelist and filmmaker who portrayed liberation themes.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Zahir Raihan</p>
+            </div>
+            <div class="author" onclick="showBio('Muhammad Zafar Iqbal', 'Famous for science fiction and children\'s books.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Muhammad Zafar Iqbal</p>
+            </div>
+            <div class="author" onclick="showBio('Imdadul Haq Milan', 'Popular novelist known for romantic and social novels.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Imdadul Haq Milan</p>
+            </div>
+            <div class="author" onclick="showBio('Bibhutibhushan Bandyopadhyay', 'Author of Pather Panchali, known for rural Bengal themes.')">
+                <img src="Document/writer Icon.jpg" alt="pen icon" style="width: 50px; height: 50px;">
+                <p>Bibhutibhushan Bandyopadhyay</p>
+            </div>
+            
+        </div>
+        
+    </div>
+    
+    <div id="bioModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeBio()">&times;</span>
+            <h2 id="authorName"></h2>
+            <p id="authorBio"></p>
+        </div>
+    </div>
+
+
+
+    <script defer src="script.js"></script>
+</body>
+</html>
